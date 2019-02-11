@@ -1669,3 +1669,9 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-02-11 09:44:45.936
 !MESSAGE Indexed 'Lab1_cpu1' (9 sources, 59 headers) in 0.845 sec: 16,145 declarations; 15,140 references; 0 unresolved inclusions; 318 syntax errors; 230 unresolved names (0.73%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:31:17.452
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:31:17.462
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

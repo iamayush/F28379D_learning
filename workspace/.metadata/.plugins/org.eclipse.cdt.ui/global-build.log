@@ -244,3 +244,11 @@ Finished building target: "Lab1_cpu02.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab1_cpu1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
