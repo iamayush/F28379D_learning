@@ -1,0 +1,64 @@
+
+**** Build of configuration CPU2_FLASH for project blinky_dc_cpu02 ****
+
+"C:\\CCStudio_v6.0\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_CodeStartBranch.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_CodeStartBranch.asm'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_DefaultISR.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_DefaultISR.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_DefaultISR.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_DefaultISR.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefs.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Gpio.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Gpio.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Gpio.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Ipc.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Ipc.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_Ipc.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_PieCtrl.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieCtrl.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieCtrl.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieVect.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_PieVect.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieVect.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_PieVect.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_SysCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_SysCtrl.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_SysCtrl.c'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_usDelay.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_usDelay.asm"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/source/F2837xD_usDelay.asm'
+' '
+'Building file: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_examples_Dual/blinky_dc/cpu02/blinky_dc_cpu02.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/include" --include_path="C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/include" -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blinky_dc_cpu02.pp"  "C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_examples_Dual/blinky_dc/cpu02/blinky_dc_cpu02.c"
+'Finished building: C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_examples_Dual/blinky_dc/cpu02/blinky_dc_cpu02.c'
+' '
+'Building target: blinky_dc_cpu02.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -g --define=CPU2 --define=_FLASH --diag_warning=225 --display_error_number -z -m"blinky_dc_cpu02.map" --warn_sections -i"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/lib" -i"C:/CCStudio_v6.0/ccsv6/tools/compiler/c2000_6.2.5/include" -i"C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_common/cmd" -i"C:/CCStudio_v6.0/controlSUITE/device_support/F2837xD/v110/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blinky_dc_cpu02_linkInfo.xml" --rom_model -o "blinky_dc_cpu02.out"  "./blinky_dc_cpu02.obj" "./F2837xD_usDelay.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_PieVect.obj" "./F2837xD_PieCtrl.obj" "./F2837xD_Ipc.obj" "./F2837xD_Gpio.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_DefaultISR.obj" "./F2837xD_CodeStartBranch.obj" -l"rts2800_fpu32.lib" -l"2837x_Flash_lnk_cpu2.cmd" -l"F2837x_Headers_nonBIOS_cpu2.cmd" -l"libc.a" 
+<Linking>
+warning #10210-D: creating ".stack" section with default size of 0x400; use the
+   -stack option to change the default size
+'Finished building target: blinky_dc_cpu02.out'
+' '
+
+**** Build Finished ****

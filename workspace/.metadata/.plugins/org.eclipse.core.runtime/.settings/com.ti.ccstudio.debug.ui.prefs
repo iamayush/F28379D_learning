@@ -1,0 +1,6 @@
+MODULES_MRU_PATH=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu02\\ccs\\CPU2_FLASH\\blinky_dc_cpu02.out
+MODULES_MRU_PATH.1=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu01\\ccs\\CPU1_FLASH_STANDALONE\\blinky_dc_cpu01.out
+MODULES_MRU_PATH.2=C\:\\F2837xD\\Labs\\Lab1\\cpu02\\Debug\\Lab1_cpu02.out
+MODULES_MRU_PATH.3=C\:\\F2837xD\\Labs\\Lab1\\cpu01\\Debug\\Lab1_cpu1.out
+eclipse.preferences.version=1
+useAnnotationsPrefPage=true
