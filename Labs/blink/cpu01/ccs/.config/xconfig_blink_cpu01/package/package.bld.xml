@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="xconfig_blink_cpu01" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/blink_cpu01_p28L.c"/>
+    </sources>
+    <configscripts>
+        <srcFile name="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"/>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/blink_cpu01_p28L.mak" src="package.bld"/>
+        <srcFile name="package/cfg/blink_cpu01_p28L.o28L.dep" src="package/cfg/blink_cpu01_p28L.c"/>
+        <srcFile name="package/cfg/blink_cpu01_p28L.dep" src="package/cfg/blink_cpu01_p28L.cfg"/>
+        <srcFile name="package/cfg/blink_cpu01.x28L.mak" src="package.bld"/>
+        <srcFile name="package/rel/xconfig_blink_cpu01.tar.dep" src="package/rel/xconfig_blink_cpu01.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C28_large"
+            version="ti.targets.C28_large{1,0,6.2,11"
+            rawVersion="6.2.11"
+            platform="ti.platforms.sim28xx"
+            isa="28"
+            suffix="28L"
+            rootDir="C:/CCStudio_v8/ccsv8/tools/compiler/c2000_6.2.11"
+            os="undefined"
+            rts="ti.targets.rts2800">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="large"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    <configuration name="blink_cpu01"
+        pname="blink_cpu01.p28L"
+        target="ti.targets.C28_large"
+        platform="ti.platforms.sim28xx"
+        profile="release"
+        isPartial="false"
+        xCfgScript="package/cfg/blink_cpu01_p28L.cfg"
+        xCfgPrefix="package/cfg/blink_cpu01_p28L"
+        cfgScript="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"
+        cfgArgs="null"
+        />
+    </configurations>
+    <executables>
+    <executable name="blink_cpu01"
+        pname="blink_cpu01.x28L"
+        target="ti.targets.C28_large"
+        platform="ti.platforms.sim28xx"
+        profile="release"
+        xCfgScript="package/cfg/blink_cpu01_p28L.cfg"
+        xCfgPrefix="package/cfg/blink_cpu01_p28L"
+        cfgScript="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="blink_cpu01.x28L"
+        args=""
+        groupName="blink_cpu01.x28L"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="xconfig_blink_cpu01"
+        pname="xconfig_blink_cpu01.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

@@ -252,3 +252,40 @@ Finished building target: "Lab1_cpu02.out"
 gmake: Nothing to be done for 'all'.
 
 **** Build Finished ****
+
+**** Clean-only build of configuration CPU1_RAM_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_DefaultISR.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_DefaultISR.d" "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_RAM_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_RAM_DEBUG\F2837xD_DefaultISR.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_RAM_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU2_RAM for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu02.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_DefaultISR.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" 
+DEL /F "F2837xD_DefaultISR.d" "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_RAM\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_RAM\F2837xD_DefaultISR.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_RAM\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****

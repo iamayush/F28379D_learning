@@ -1,0 +1,13 @@
+XDC_open() {
+    GEL_ProjectLoad("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/package/configPkg.pjt");
+    GEL_ProjectLoad("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/package/cfg/blink_cpu02_x28FP.pjt");
+    GEL_ProjectSetActive("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/package/cfg/blink_cpu02_x28FP.pjt");
+}
+XDC_close() {
+    GEL_ProjectClose("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/package/configPkg.pjt");
+    GEL_ProjectClose("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/package/cfg/blink_cpu02_x28FP.pjt");
+}
+menuitem "XDC Package"
+hotmenu load_executable () { GEL_Load("C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu02/ccs/CPU2_FLASH/configPkg/blink_cpu02.x28FP"); }
+hotmenu open_project () { XDC_open(); }
+hotmenu close_project () { XDC_close(); }

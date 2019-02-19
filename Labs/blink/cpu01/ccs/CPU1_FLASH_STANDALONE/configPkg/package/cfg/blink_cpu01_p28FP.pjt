@@ -1,0 +1,70 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="blink_cpu01_x28FP"
+ProjectType=External
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Config="Executable"
+
+[Project Dependencies]
+Source="C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/CPU1_FLASH_STANDALONE/configPkg/package/configPkg.pjt"
+
+["C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/CPU1_FLASH_STANDALONE/configPkg/package/configPkg.pjt" Settings]
+ExcludeFromBuild=true
+
+
+;
+;  Specify the include path so CCS can find source files; without this 
+;  CCS gets very confused by files with the same name in different 
+;  directories.
+;
+["Compiler" Settings: "Executable"]
+Options=-i"C:/CCStudio_v5.5/bios_6_37_01_24/packages" -i"C:/CCStudio_v5.5/ccsv5/ccs_base" -i"C:/CCStudio_v5.5/xdctools_3_25_05_94/packages" -i"C:\Dan\F28377\AddSYSBIOStoCexamples\blink\cpu01\ccs\CPU1_FLASH_STANDALONE" 
+
+[External Makefile]
+ExtMakefile=../../package.bld
+
+;
+;  Name the source files that should show up in the project window; i.e., 
+;  the files we expect the user to edit within CCS.
+;
+[Source Files]
+Source="../../package.bld"
+Source="blink_cpu01_x28FP.c"
+Source="../../C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg"
+
+["../../package.bld" Settings: "Executable"]
+UseCustomBuild=true
+CustomBuildCmd=C:\CCStudio_v5.5\xdctools_3_25_05_94\xdc.exe blink_cpu01.x28FP
+
+; if no custom "clean" command is specified, rebuild all deletes the
+; following files before running the build command above.  
+;
+CustomBuildOutput="blink_cpu01.x28FP"
+
+;  Don't use 'xdc clean' command here because this also deletes the project
+;  file that is currently open.  This causes the command to hang waiting for
+;  CCS to close the file, which it doesn't do (of course).
+;
+;  Instead we only clean out those files associated with the target used to
+;  build the executable.
+;
+CustomCleanCmd=C:\CCStudio_v5.5\xdctools_3_25_05_94\xdc.exe clean,28FP
+;
+;  Always run the xdc command since this command is the one that tracks
+;  dependencies
+;
+Run=Always
+
+;
+;  We need to exclude these from the build or provide a command to run from
+;  the directory containing the file; otherwise CCS complains about not
+;  being able to "build" this file.  Adding a custom build step causes CCS
+;  to run this *in addition* to the project build above; thus we do nothing
+;
+["blink_cpu01_x28FP.c" Settings: "Executable"]
+ExcludeFromBuild=true
+
+["../../C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg" Settings: "Executable"]
+ExcludeFromBuild=true
