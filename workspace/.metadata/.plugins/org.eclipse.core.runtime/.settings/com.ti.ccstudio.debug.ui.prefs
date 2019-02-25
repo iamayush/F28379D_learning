@@ -1,8 +1,10 @@
-MODULES_MRU_PATH=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\Lab1\\cpu02\\Debug\\Lab1_cpu02.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU2
-MODULES_MRU_PATH.1=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\Lab1\\cpu01\\Debug\\Lab1_cpu1.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1
-MODULES_MRU_PATH.2=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu02\\ccs\\CPU2_FLASH\\blinky_dc_cpu02.out
-MODULES_MRU_PATH.3=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu01\\ccs\\CPU1_FLASH_STANDALONE\\blinky_dc_cpu01.out
-MODULES_MRU_PATH.4=C\:\\F2837xD\\Labs\\Lab1\\cpu02\\Debug\\Lab1_cpu02.out
-MODULES_MRU_PATH.5=C\:\\F2837xD\\Labs\\Lab1\\cpu01\\Debug\\Lab1_cpu1.out
+MODULES_MRU_PATH=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\blink\\cpu02\\ccs\\CPU2_FLASH\\blink_cpu02.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe/C28xx_CPU2
+MODULES_MRU_PATH.1=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\blink\\cpu01\\ccs\\CPU1_FLASH_STANDALONE\\blink_cpu01.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe/C28xx_CPU1
+MODULES_MRU_PATH.2=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\Lab1\\cpu02\\Debug\\Lab1_cpu02.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU2
+MODULES_MRU_PATH.3=C\:\\ayush2\\F28379D_Guide\\F2837xD\\Labs\\Lab1\\cpu01\\Debug\\Lab1_cpu1.out\#THREAD_IDS\#Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1
+MODULES_MRU_PATH.4=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu02\\ccs\\CPU2_FLASH\\blinky_dc_cpu02.out
+MODULES_MRU_PATH.5=C\:\\CCStudio_v6.0\\controlSUITE\\device_support\\F2837xD\\v110\\F2837xD_examples_Dual\\blinky_dc\\cpu01\\ccs\\CPU1_FLASH_STANDALONE\\blinky_dc_cpu01.out
+MODULES_MRU_PATH.6=C\:\\F2837xD\\Labs\\Lab1\\cpu02\\Debug\\Lab1_cpu02.out
+MODULES_MRU_PATH.7=C\:\\F2837xD\\Labs\\Lab1\\cpu01\\Debug\\Lab1_cpu1.out
 eclipse.preferences.version=1
 useAnnotationsPrefPage=true

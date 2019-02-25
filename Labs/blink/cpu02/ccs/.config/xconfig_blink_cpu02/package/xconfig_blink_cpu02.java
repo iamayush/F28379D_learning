@@ -2,7 +2,7 @@
  *  Do not modify this file; it is automatically 
  *  generated and any modifications will be overwritten.
  *
- * @(#) xdc-z63
+ * @(#) xdc-B06
  */
 import java.util.*;
 import org.mozilla.javascript.*;
@@ -11,7 +11,7 @@ import xdc.services.spec.Session;
 
 public class xconfig_blink_cpu02
 {
-    static final String VERS = "@(#) xdc-z63\n";
+    static final String VERS = "@(#) xdc-B06\n";
 
     static final Proto.Elm $$T_Bool = Proto.Elm.newBool();
     static final Proto.Elm $$T_Num = Proto.Elm.newNum();
@@ -100,6 +100,10 @@ public class xconfig_blink_cpu02
         sb.append("var pkg = xdc.om['xconfig_blink_cpu02'];\n");
         sb.append("if (pkg.$vers.length >= 3) {\n");
             sb.append("pkg.$vers.push(Packages.xdc.services.global.Vers.getDate(xdc.csd() + '/..'));\n");
+        sb.append("}\n");
+        sb.append("if ('xconfig_blink_cpu02$$stat$base' in xdc.om) {\n");
+            sb.append("pkg.packageBase = xdc.om['xconfig_blink_cpu02$$stat$base'];\n");
+            sb.append("pkg.packageRepository = xdc.om['xconfig_blink_cpu02$$stat$root'];\n");
         sb.append("}\n");
         sb.append("pkg.build.libraries = [\n");
         sb.append("];\n");

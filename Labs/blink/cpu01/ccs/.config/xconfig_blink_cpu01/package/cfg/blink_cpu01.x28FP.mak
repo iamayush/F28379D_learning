@@ -3,7 +3,7 @@
 #  package.bld.  Any modifications to this file will be 
 #  overwritten whenever makefiles are re-generated.
 #
-#  target compatibility key = ti.targets.C28_float{1,0,6.2,4
+#  target compatibility key = ti.targets.C28_float{1,0,18.1,1
 #
 blink_cpu01.x28FP: package/cfg/blink_cpu01.x28FP.mak
 

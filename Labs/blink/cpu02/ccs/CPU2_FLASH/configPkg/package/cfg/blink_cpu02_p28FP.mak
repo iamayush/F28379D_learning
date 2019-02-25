@@ -3,7 +3,7 @@
 #  package.bld.  Any modifications to this file will be 
 #  overwritten whenever makefiles are re-generated.
 #
-#  target compatibility key = ti.targets.C28_float{1,0,6.2,4
+#  target compatibility key = ti.targets.C28_float{1,0,18.1,1
 #
 ifeq (,$(MK_NOGENDEPS))
 -include package/cfg/blink_cpu02_p28FP.o28FP.dep
@@ -15,8 +15,8 @@ package/cfg/blink_cpu02_p28FP.o28FP: package/cfg/blink_cpu02_p28FP.c package/cfg
 	@$(RM) $@.dep
 	$(RM) $@
 	@$(MSG) cl28FP $< ...
-	$(ti.targets.C28_float.rootDir)/bin/cl2000 -c  -qq -pdsw225 -Dfar=  -mo -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  --embed_inline_assembly -D_DEBUG_=1  -Dxdc_cfg__header__='configPkg/package/cfg/blink_cpu02_p28FP.h'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_6_2_4 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg -fc $<
-	$(MKDEP) -a $@.dep -p package/cfg -s o28FP $< -C   -qq -pdsw225 -Dfar=  -mo -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  --embed_inline_assembly -D_DEBUG_=1  -Dxdc_cfg__header__='configPkg/package/cfg/blink_cpu02_p28FP.h'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_6_2_4 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg
+	$(ti.targets.C28_float.rootDir)/bin/cl2000 -c  -qq -pdsw225 -Dfar=  -mo -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__xheader__='"configPkg/package/cfg/blink_cpu02_p28FP.h"'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_18_1_1 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg -fc $<
+	$(MKDEP) -a $@.dep -p package/cfg -s o28FP $< -C   -qq -pdsw225 -Dfar=  -mo -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__xheader__='"configPkg/package/cfg/blink_cpu02_p28FP.h"'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_18_1_1 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg
 	-@$(FIXDEP) $@.dep $@.dep
 	
 package/cfg/blink_cpu02_p28FP.o28FP: export C_DIR=
@@ -28,8 +28,8 @@ package/cfg/blink_cpu02_p28FP.s28FP: package/cfg/blink_cpu02_p28FP.c package/cfg
 	@$(RM) $@.dep
 	$(RM) $@
 	@$(MSG) cl28FP -n $< ...
-	$(ti.targets.C28_float.rootDir)/bin/cl2000 -c -n -s --symdebug:none -qq -pdsw225 -Dfar=  -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__header__='configPkg/package/cfg/blink_cpu02_p28FP.h'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_6_2_4 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg -fc $<
-	$(MKDEP) -a $@.dep -p package/cfg -s o28FP $< -C  -n -s --symdebug:none -qq -pdsw225 -Dfar=  -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__header__='configPkg/package/cfg/blink_cpu02_p28FP.h'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_6_2_4 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg
+	$(ti.targets.C28_float.rootDir)/bin/cl2000 -c -n -s --symdebug:none -qq -pdsw225 -Dfar=  -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__xheader__='"configPkg/package/cfg/blink_cpu02_p28FP.h"'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_18_1_1 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg -fc $<
+	$(MKDEP) -a $@.dep -p package/cfg -s o28FP $< -C  -n -s --symdebug:none -qq -pdsw225 -Dfar=  -v28 -DLARGE_MODEL=1 -ml --float_support=fpu32 -eo.o28FP -ea.s28FP  -D_DEBUG_=1  -Dxdc_cfg__xheader__='"configPkg/package/cfg/blink_cpu02_p28FP.h"'  -Dxdc_target_name__=C28_float -Dxdc_target_types__=ti/targets/std.h -Dxdc_bld__profile_debug -Dxdc_bld__vers_1_0_18_1_1 -g  $(XDCINCS) -I$(ti.targets.C28_float.rootDir)/include -fs=./package/cfg -fr=./package/cfg
 	-@$(FIXDEP) $@.dep $@.dep
 	
 package/cfg/blink_cpu02_p28FP.s28FP: export C_DIR=

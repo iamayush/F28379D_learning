@@ -1,10 +1,10 @@
 package.xdc
 package.xs
 package/xconfig_blink_cpu01.sch
-package/.vers_g180
-package/.vers_r170
-package/.vers_b160
-package/.xdc-B06
+package/.vers_g200
+package/.vers_r200
+package/.vers_b200
+package/.xdc-D28
 package/xconfig_blink_cpu01.java
 package/xconfig_blink_cpu01.class
 package/package_xconfig_blink_cpu01.c

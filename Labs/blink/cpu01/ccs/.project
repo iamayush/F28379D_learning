@@ -29,42 +29,37 @@
 		<link>
 			<name>F2837xD_CodeStartBranch.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_DefaultISR.c</name>
-			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_DefaultISR.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm</location>
 		</link>
 		<link>
 			<name>F2837xD_GlobalVariableDefsforBIOS.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c</location>
 		</link>
 		<link>
 			<name>F2837xD_Gpio_forBIOS.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c</location>
 		</link>
 		<link>
 			<name>F2837xD_Ipc.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_Ipc.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c</location>
 		</link>
 		<link>
 			<name>F2837xD_Ipc_Driver_Util.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c</location>
 		</link>
 		<link>
 			<name>F2837xD_SysCtrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_SysCtrl.c</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c</location>
 		</link>
 		<link>
 			<name>F2837xD_usDelay.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/v100/F2837xD_common/source/F2837xD_usDelay.asm</locationURI>
+			<location>C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm</location>
 		</link>
 		<link>
 			<name>blink_cpu01.c</name>
@@ -75,7 +70,7 @@
 	<variableList>
 		<variable>
 			<name>INSTALLROOT_F2837XD</name>
-			<value>file:/C:/Dan/F28377/v100</value>
+			<value>file:/C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100</value>
 		</variable>
 	</variableList>
 </projectDescription>

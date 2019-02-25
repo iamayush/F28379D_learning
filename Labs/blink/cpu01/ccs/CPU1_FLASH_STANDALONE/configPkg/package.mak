@@ -15,86 +15,86 @@ XDCCFGDIR = package/cfg/
 # in the event that some included BOM script changes.
 #
 ifneq (clean,$(MAKECMDGOALS))
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/utils.js:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/utils.js
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xdc.tci:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xdc.tci
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/template.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/template.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/om2.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/om2.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xmlgen.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xmlgen.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xmlgen2.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/xmlgen2.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/Warnings.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/Warnings.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/IPackage.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/IPackage.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/package.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/package.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/global/Clock.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/global/Clock.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/global/Trace.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/global/Trace.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/bld.js:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/bld.js
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/BuildEnvironment.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/BuildEnvironment.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/PackageContents.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/PackageContents.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/_gen.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/_gen.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Library.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Library.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Executable.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Executable.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Repository.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Repository.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Configuration.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Configuration.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Script.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Script.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Manifest.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Manifest.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Utils.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/Utils.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget2.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget2.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget3.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITarget3.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITargetFilter.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/ITargetFilter.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/package.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/bld/package.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/utils.js:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/utils.js
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xdc.tci:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xdc.tci
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/template.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/template.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/om2.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/om2.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xmlgen.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xmlgen.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xmlgen2.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/xmlgen2.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/Warnings.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/Warnings.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/IPackage.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/IPackage.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/package.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/package.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/global/Clock.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/global/Clock.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/global/Trace.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/global/Trace.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/bld.js:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/bld.js
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/BuildEnvironment.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/BuildEnvironment.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/PackageContents.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/PackageContents.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/_gen.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/_gen.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Library.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Library.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Executable.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Executable.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Repository.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Repository.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Configuration.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Configuration.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Script.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Script.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Manifest.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Manifest.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Utils.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/Utils.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget2.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget2.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget3.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITarget3.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITargetFilter.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/ITargetFilter.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/package.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/bld/package.xs
 package.mak: config.bld
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/ITarget.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/ITarget.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/C28_large.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/C28_large.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/C28_float.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/C28_float.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/package.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/package.xs
+C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/ITarget.xs:
+package.mak: C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/ITarget.xs
+C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/C28_large.xs:
+package.mak: C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/C28_large.xs
+C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/C28_float.xs:
+package.mak: C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/C28_float.xs
+C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/package.xs:
+package.mak: C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/package.xs
 package.mak: package.bld
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/compiler.opt.xdt:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/compiler.opt.xdt
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/io/File.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/io/File.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/io/package.xs:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/services/io/package.xs
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/compiler.defs.xdt:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/compiler.defs.xdt
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/custom.mak.exe.xdt:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/custom.mak.exe.xdt
-C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/package.xs.xdt:
-package.mak: C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/xdc/tools/configuro/template/package.xs.xdt
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/compiler.opt.xdt:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/compiler.opt.xdt
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/io/File.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/io/File.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/io/package.xs:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/services/io/package.xs
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/compiler.defs.xdt:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/compiler.defs.xdt
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt
+C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/package.xs.xdt:
+package.mak: C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/tools/configuro/template/package.xs.xdt
 endif
 
-ti.targets.C28_float.rootDir ?= C:/CCStudio_v5.5/ccsv5/tools/compiler/c2000_6.2.4
-ti.targets.packageBase ?= C:/CCStudio_v5.5/xdctools_3_25_05_94/packages/ti/targets/
+ti.targets.C28_float.rootDir ?= C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS
+ti.targets.packageBase ?= C:/CCStudio_v8/bios_6_70_01_03/packages/ti/targets/
 .PRECIOUS: $(XDCCFGDIR)/%.o28FP
 .PHONY: all,28FP .dlls,28FP .executables,28FP test,28FP
 all,28FP: .executables,28FP
@@ -141,6 +141,8 @@ endif
 
 package/cfg/blink_cpu01_p28FP.c package/cfg/blink_cpu01_p28FP.h package/cfg/blink_cpu01_p28FP.xdl: override _PROG_NAME := blink_cpu01.x28FP
 package/cfg/blink_cpu01_p28FP.c: package/cfg/blink_cpu01_p28FP.cfg
+package/cfg/blink_cpu01_p28FP.xdc.inc: package/cfg/blink_cpu01_p28FP.xdl
+package/cfg/blink_cpu01_p28FP.xdl package/cfg/blink_cpu01_p28FP.c: .interfaces
 
 clean:: clean,28FP
 	-$(RM) package/cfg/blink_cpu01_p28FP.cfg
@@ -159,7 +161,7 @@ blink_cpu01.x28FP: package/cfg/blink_cpu01_p28FP.o28FP
 	$(RM) $@
 	@$(MSG) lnk28FP $@ ...
 	$(RM) $(XDCCFGDIR)/$@.map
-	$(ti.targets.C28_float.rootDir)/bin/lnk2000 -w -q -u _c_int00 -fs $(XDCCFGDIR)$(dir $@).  -q -o $@ package/cfg/blink_cpu01_p28FP.o28FP   package/cfg/blink_cpu01_p28FP.xdl  -c -m $(XDCCFGDIR)/$@.map -l $(ti.targets.C28_float.rootDir)/lib/libc.a
+	$(ti.targets.C28_float.rootDir)/bin/cl2000 -q -u _c_int00 -z  -o $@ package/cfg/blink_cpu01_p28FP.o28FP   package/cfg/blink_cpu01_p28FP.xdl  -w -c -m $(XDCCFGDIR)/$@.map -l $(ti.targets.C28_float.rootDir)/lib/libc.a
 	
 blink_cpu01.x28FP: export C_DIR=
 blink_cpu01.x28FP: PATH:=$(ti.targets.C28_float.rootDir)/bin/;$(PATH)
@@ -176,15 +178,13 @@ else
 endif
 
 clean,28FP::
-	-$(RM) .tmp,blink_cpu01.x28FP,0,*
+	-$(RM) $(wildcard .tmp,blink_cpu01.x28FP,*)
 
 
 clean:: clean,28FP
 
 clean,28FP::
 	-$(RM) blink_cpu01.x28FP
-clean:: 
-	-$(RM) package/cfg/blink_cpu01_p28FP.pjt
 %,copy:
 	@$(if $<,,$(MSG) don\'t know how to build $*; exit 1)
 	@$(MSG) cp $< $@
@@ -193,17 +193,17 @@ clean::
 blink_cpu01_p28FP.o28FP,copy : package/cfg/blink_cpu01_p28FP.o28FP
 blink_cpu01_p28FP.s28FP,copy : package/cfg/blink_cpu01_p28FP.s28FP
 
-$(XDCCFGDIR)%.c $(XDCCFGDIR)%.h $(XDCCFGDIR)%.xdl: $(XDCCFGDIR)%.cfg .interfaces $(XDCROOT)/packages/xdc/cfg/Main.xs
+$(XDCCFGDIR)%.c $(XDCCFGDIR)%.h $(XDCCFGDIR)%.xdl: $(XDCCFGDIR)%.cfg $(XDCROOT)/packages/xdc/cfg/Main.xs | .interfaces
 	@$(MSG) "configuring $(_PROG_NAME) from $< ..."
 	$(CONFIG) $(_PROG_XSOPTS) xdc.cfg $(_PROG_NAME) $(XDCCFGDIR)$*.cfg $(XDCCFGDIR)$*
 
 .PHONY: release,configPkg
-configPkg.tar: package/package.bld.xml
-configPkg.tar: package/build.cfg
-configPkg.tar: package/package.xdc.inc
 ifeq (,$(MK_NOGENDEPS))
 -include package/rel/configPkg.tar.dep
 endif
+package/rel/configPkg/configPkg/package/package.rel.xml: package/package.bld.xml
+package/rel/configPkg/configPkg/package/package.rel.xml: package/build.cfg
+package/rel/configPkg/configPkg/package/package.rel.xml: package/package.xdc.inc
 package/rel/configPkg/configPkg/package/package.rel.xml: .force
 	@$(MSG) generating external release references $@ ...
 	$(XS) $(JSENV) -f $(XDCROOT)/packages/xdc/bld/rel.js $(MK_RELOPTS) . $@
@@ -221,9 +221,9 @@ clean:: .clean
 	-$(RM) package/rel/configPkg.tar.dep
 
 clean:: .clean
-	-$(RM) .libraries .libraries,*
+	-$(RM) .libraries $(wildcard .libraries,*)
 clean:: 
-	-$(RM) .dlls .dlls,*
+	-$(RM) .dlls $(wildcard .dlls,*)
 #
 # The following clean rule removes user specified
 # generated files or directories.
@@ -250,5 +250,3 @@ clean::
 	-$(RMDIR) package
 
 include custom.mak
-clean:: 
-	-$(RM) package/configPkg.pjt

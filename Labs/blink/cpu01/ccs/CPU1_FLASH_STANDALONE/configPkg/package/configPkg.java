@@ -2,7 +2,7 @@
  *  Do not modify this file; it is automatically 
  *  generated and any modifications will be overwritten.
  *
- * @(#) xdc-z63
+ * @(#) xdc-D28
  */
 import java.util.*;
 import org.mozilla.javascript.*;
@@ -11,7 +11,7 @@ import xdc.services.spec.Session;
 
 public class configPkg
 {
-    static final String VERS = "@(#) xdc-z63\n";
+    static final String VERS = "@(#) xdc-D28\n";
 
     static final Proto.Elm $$T_Bool = Proto.Elm.newBool();
     static final Proto.Elm $$T_Num = Proto.Elm.newNum();
@@ -100,6 +100,10 @@ public class configPkg
         sb.append("var pkg = xdc.om['configPkg'];\n");
         sb.append("if (pkg.$vers.length >= 3) {\n");
             sb.append("pkg.$vers.push(Packages.xdc.services.global.Vers.getDate(xdc.csd() + '/..'));\n");
+        sb.append("}\n");
+        sb.append("if ('configPkg$$stat$base' in xdc.om) {\n");
+            sb.append("pkg.packageBase = xdc.om['configPkg$$stat$base'];\n");
+            sb.append("pkg.packageRepository = xdc.om['configPkg$$stat$root'];\n");
         sb.append("}\n");
         sb.append("pkg.build.libraries = [\n");
         sb.append("];\n");

@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg',
+        cfgScript: 'C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg',
         profile: 'debug',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../blink_cpu01.cfg',
-    outputPath: 'C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/CPU1_FLASH_STANDALONE/configPkg',
+    outputPath: 'C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/CPU1_FLASH_STANDALONE/configPkg',
     exeName:    'blink_cpu01' + suffix,
     exeIntName: 'blink_cpu01' + suffix.replace('.', '_'),
     targ:       targ,

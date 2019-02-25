@@ -1,1 +1,0 @@
-"./F2837xD_CodeStartBranch.obj" "./F2837xD_DefaultISR.obj" "./F2837xD_GlobalVariableDefsforBIOS.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_Ipc_Driver_Util.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu01.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_RAM_lnk_cpu1.cmd -lF2837x_Headers_nonBIOS_cpu1.cmd -llibc.a 

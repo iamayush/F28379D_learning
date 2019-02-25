@@ -9,15 +9,14 @@ CFG_SRCS += \
 ../blink_cpu02.cfg 
 
 ASM_SRCS += \
-C:/dan/F28377/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm \
-C:/dan/F28377/v100/F2837xD_common/source/F2837xD_usDelay.asm 
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm \
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm 
 
 C_SRCS += \
-C:/dan/F28377/v100/F2837xD_common/source/F2837xD_DefaultISR.c \
-C:/ayush2/F28379D_Guide/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c \
-C:/ayush2/F28379D_Guide/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c \
-C:/dan/F28377/v100/F2837xD_common/source/F2837xD_Ipc.c \
-C:/dan/F28377/v100/F2837xD_common/source/F2837xD_SysCtrl.c \
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c \
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c \
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c \
+C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c \
 C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c 
 
 GEN_CMDS += \
@@ -31,7 +30,6 @@ GEN_MISC_DIRS += \
 ./configPkg/ 
 
 C_DEPS += \
-./F2837xD_DefaultISR.d \
 ./F2837xD_GlobalVariableDefsforBIOS.d \
 ./F2837xD_Gpio_forBIOS.d \
 ./F2837xD_Ipc.d \
@@ -43,7 +41,6 @@ GEN_OPTS += \
 
 OBJS += \
 ./F2837xD_CodeStartBranch.obj \
-./F2837xD_DefaultISR.obj \
 ./F2837xD_GlobalVariableDefsforBIOS.obj \
 ./F2837xD_Gpio_forBIOS.obj \
 ./F2837xD_Ipc.obj \
@@ -60,7 +57,6 @@ GEN_MISC_DIRS__QUOTED += \
 
 OBJS__QUOTED += \
 "F2837xD_CodeStartBranch.obj" \
-"F2837xD_DefaultISR.obj" \
 "F2837xD_GlobalVariableDefsforBIOS.obj" \
 "F2837xD_Gpio_forBIOS.obj" \
 "F2837xD_Ipc.obj" \
@@ -69,7 +65,6 @@ OBJS__QUOTED += \
 "blink_cpu02.obj" 
 
 C_DEPS__QUOTED += \
-"F2837xD_DefaultISR.d" \
 "F2837xD_GlobalVariableDefsforBIOS.d" \
 "F2837xD_Gpio_forBIOS.d" \
 "F2837xD_Ipc.d" \
@@ -85,15 +80,14 @@ ASM_DEPS__QUOTED += \
 "F2837xD_usDelay.d" 
 
 ASM_SRCS__QUOTED += \
-"C:/dan/F28377/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm" \
-"C:/dan/F28377/v100/F2837xD_common/source/F2837xD_usDelay.asm" 
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm" \
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm" 
 
 C_SRCS__QUOTED += \
-"C:/dan/F28377/v100/F2837xD_common/source/F2837xD_DefaultISR.c" \
-"C:/ayush2/F28379D_Guide/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c" \
-"C:/ayush2/F28379D_Guide/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c" \
-"C:/dan/F28377/v100/F2837xD_common/source/F2837xD_Ipc.c" \
-"C:/dan/F28377/v100/F2837xD_common/source/F2837xD_SysCtrl.c" \
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c" \
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c" \
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c" \
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c" \
 "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c" 
 
 

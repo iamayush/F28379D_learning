@@ -4,12 +4,13 @@
 
 SHELL = cmd.exe
 
+CG_TOOL_ROOT := C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS
+
 GEN_OPTS__FLAG := --cmd_file="configPkg/compiler.opt"
 GEN_CMDS__FLAG := -l"configPkg/linker.cmd"
 
 ORDERED_OBJS += \
 "./F2837xD_CodeStartBranch.obj" \
-"./F2837xD_DefaultISR.obj" \
 "./F2837xD_GlobalVariableDefsforBIOS.obj" \
 "./F2837xD_Gpio_forBIOS.obj" \
 "./F2837xD_Ipc.obj" \
@@ -18,8 +19,8 @@ ORDERED_OBJS += \
 "./F2837xD_usDelay.obj" \
 "./blink_cpu01.obj" \
 $(GEN_CMDS__FLAG) \
+-l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" \
 -lrts2800_fpu32.lib \
--l2837x_Dan_FLASH_lnk_cpu1.cmd \
 -lF2837x_Headers_BIOS_cpu1.cmd \
 -llibc.a \
 
@@ -133,6 +134,12 @@ blink_cpu01.out \
 EXE_OUTPUTS__QUOTED += \
 "blink_cpu01.out" \
 
+BIN_OUTPUTS += \
+blink_cpu01.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"blink_cpu01.hex" \
+
 
 # All Target
 all: blink_cpu01.out
@@ -141,16 +148,23 @@ all: blink_cpu01.out
 blink_cpu01.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"C:/CCStudio_v8/ccsv8/tools/compiler/c2000_6.2.11/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH --diag_warning=225 --display_error_number -z -m"blink_cpu01.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/c2000_6.2.11/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/c2000_6.2.11/include" -i"C:/Dan/F28377/v100/F2837xD_common/cmd" -i"C:/Dan/F28377/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu01_linkInfo.xml" --rom_model -o "blink_cpu01.out" $(ORDERED_OBJS)
+	"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu01.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu01_linkInfo.xml" --rom_model -o "blink_cpu01.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
+	@echo ' '
+
+blink_cpu01.hex: $(EXE_OUTPUTS)
+	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
+	@echo 'Invoking: C2000 Hex Utility'
+	"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/hex2000"  -o "blink_cpu01.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
+	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "F2837xD_CodeStartBranch.obj" "F2837xD_DefaultISR.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
-	-$(RM) "F2837xD_DefaultISR.d" "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+	-$(RM) "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+	-$(RM) "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
 	-$(RM) "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

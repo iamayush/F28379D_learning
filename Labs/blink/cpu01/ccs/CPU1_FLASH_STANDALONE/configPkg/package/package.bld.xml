@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/blink_cpu01_p28FP.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg"/>
+        <srcFile name="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -20,12 +20,12 @@
     </makefiles>
     <targets>
         <target name="ti.targets.C28_float"
-            version="ti.targets.C28_float{1,0,6.2,4"
-            rawVersion="6.2.4"
+            version="ti.targets.C28_float{1,0,18.1,1"
+            rawVersion="18.1.1"
             platform="ti.platforms.sim28xx"
             isa="28FP"
             suffix="28FP"
-            rootDir="C:/CCStudio_v5.5/ccsv5/tools/compiler/c2000_6.2.4"
+            rootDir="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS"
             os="undefined"
             rts="ti.targets.rts2800">
             <model endian="little"
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/blink_cpu01_p28FP.cfg"
         xCfgPrefix="package/cfg/blink_cpu01_p28FP"
-        cfgScript="C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg"
+        cfgScript="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="debug"
         xCfgScript="package/cfg/blink_cpu01_p28FP.cfg"
         xCfgPrefix="package/cfg/blink_cpu01_p28FP"
-        cfgScript="C:/Dan/F28377/AddSYSBIOStoCexamples/blink/cpu01/ccs/blink_cpu01.cfg"
+        cfgScript="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/blink_cpu01.cfg"
         cfgArgs="null"
         />
     </executables>

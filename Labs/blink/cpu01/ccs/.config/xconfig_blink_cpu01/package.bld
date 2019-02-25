@@ -1,7 +1,8 @@
 /* THIS IS A GENERATED FILE -- DO NOT EDIT */
 
-var targ = xdc.module('ti.targets.C28_large');
-var platform = targ.platform;
+var targ = xdc.module('ti.targets.C28_float');
+/* configuro was told the platform explicitly */
+var platform = 'ti.platforms.tms320x28:F28377D';
 
 /* decide whether to make an assembly or an executable */
 var makeAssembly = false;
