@@ -2407,3 +2407,71 @@ Finished building target: "blink_cpu02.out"
 gmake: Nothing to be done for 'all'.
 
 **** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+Building target: "blink_cpu01.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu01.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu01_linkInfo.xml" --rom_model -o "blink_cpu01.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefsforBIOS.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_Ipc_Driver_Util.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu01.obj" -l"configPkg/linker.cmd" -l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -lrts2800_fpu32.lib -lF2837x_Headers_BIOS_cpu1.cmd -llibc.a 
+<Linking>
+Finished building target: "blink_cpu01.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefsforBIOS.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
