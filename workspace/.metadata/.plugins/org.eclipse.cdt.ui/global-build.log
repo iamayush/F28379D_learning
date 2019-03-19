@@ -2475,3 +2475,1069 @@ gmake: Nothing to be done for 'all'.
 gmake: Nothing to be done for 'all'.
 
 **** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+Buildfile generation error occurred..
+Product 'com.ti.sdo.grace' v2.20.2.32 is not currently installed and no compatible version is available. Please install this product or a compatible version.
+Build stopped..
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'F2837xD_GlobalVariableDefsforBIOS.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 12: fatal error #1965: cannot open source file "F2837xD_Device.h"
+1 catastrophic error detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c".
+Compilation terminated.
+gmake: *** [F2837xD_GlobalVariableDefsforBIOS.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+>> Compilation failure
+subdir_rules.mk:23: recipe for target 'F2837xD_Gpio_forBIOS.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 11: fatal error #1965: cannot open source file "F2837xD_Device.h"
+1 catastrophic error detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c".
+Compilation terminated.
+gmake: *** [F2837xD_Gpio_forBIOS.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'F2837xD_Ipc.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c", line 11: fatal error #1965: cannot open source file "F2837xD_Device.h"
+1 catastrophic error detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c".
+Compilation terminated.
+gmake: *** [F2837xD_Ipc.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'F2837xD_Ipc_Driver_Util.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c", line 35: fatal error #1965: cannot open source file "F2837xD_Device.h"
+1 catastrophic error detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c".
+Compilation terminated.
+gmake: *** [F2837xD_Ipc_Driver_Util.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'F2837xD_SysCtrl.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c", line 16: fatal error #1965: cannot open source file "F2837xD_Device.h"
+1 catastrophic error detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c".
+Compilation terminated.
+gmake: *** [F2837xD_SysCtrl.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_headers/include" --include_path="C:/ayush2/F28379D_Guide/F2837xD/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c", line 22: fatal error #1965: cannot open source file "F28x_Project.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+Compilation terminated.
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu02.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu02.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\blink_cpu02.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu02.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu02.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu02.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu02.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu02.x28FP from package/cfg/blink_cpu02_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu02_p28FP.c ...
+Finished building: "../blink_cpu02.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefsforBIOS.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\blink_cpu01.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_DEBUG\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_DEBUG for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --define=CPU1 --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'blink_cpu01.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 29: error #258: invalid redeclaration of type name "Uint8" (declared at line 267 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 30: error #258: invalid redeclaration of type name "Uint16" (declared at line 268 of "C:/CCStudio_v8/xdctools_3_50_05_12_core/packages/xdc/std.h")
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+2 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c".
+gmake: *** [blink_cpu01.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_STANDALONE\blink_cpu01.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_STANDALONE\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu01.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu01.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_Ipc_Driver_Util.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu01.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_Ipc_Driver_Util.d" "F2837xD_SysCtrl.d" "blink_cpu01.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_STANDALONE\F2837xD_CodeStartBranch.obj
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_STANDALONE\F2837xD_GlobalVariableDefsforBIOS.d
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu01\ccs\CPU1_FLASH_STANDALONE\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu01.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:F28377D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu01.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu01.x28FP from package/cfg/blink_cpu01_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu01_p28FP.c ...
+Finished building: "../blink_cpu01.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu01.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu01/blink_cpu01.c"
+ 
+Building target: "blink_cpu01.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu01.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu01_linkInfo.xml" --rom_model -o "blink_cpu01.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefsforBIOS.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_Ipc_Driver_Util.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu01.obj" -l"configPkg/linker.cmd" -l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -lrts2800_fpu32.lib -lF2837x_Headers_BIOS_cpu1.cmd -llibc.a 
+<Linking>
+Finished building target: "blink_cpu01.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****

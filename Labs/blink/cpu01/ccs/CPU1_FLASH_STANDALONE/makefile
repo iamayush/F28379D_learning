@@ -145,7 +145,7 @@ BIN_OUTPUTS__QUOTED += \
 all: blink_cpu01.out
 
 # Tool invocations
-blink_cpu01.out: $(OBJS) $(GEN_CMDS)
+blink_cpu01.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
 	"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=SYSBIOS --define=_STANDALONE --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu01.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu01_linkInfo.xml" --rom_model -o "blink_cpu01.out" $(ORDERED_OBJS)

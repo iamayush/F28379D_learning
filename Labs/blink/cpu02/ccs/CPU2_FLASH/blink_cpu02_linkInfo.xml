@@ -2,7 +2,7 @@
 <link_info>
    <banner>TMS320C2000 Linker PC v18.1.1.LTS</banner>
    <copyright>Copyright (c) 1996-2017 Texas Instruments Incorporated</copyright>
-   <link_time>0x5c911277</link_time>
+   <link_time>0x5c911d67</link_time>
    <link_errors>0x0</link_errors>
    <output_file>blink_cpu02.out</output_file>
    <entry_point>
@@ -302,14 +302,14 @@
          <size>0xe</size>
          <input_file_ref idref="fl-31"/>
       </object_component>
-      <object_component id="oc-226">
+      <object_component id="oc-225">
          <name>.cinit:__lock</name>
          <load_address>0x82433</load_address>
          <run_address>0x82433</run_address>
          <size>0x5</size>
          <input_file_ref idref="fl-32"/>
       </object_component>
-      <object_component id="oc-225">
+      <object_component id="oc-226">
          <name>.cinit:__unlock</name>
          <load_address>0x82438</load_address>
          <run_address>0x82438</run_address>
@@ -5413,8 +5413,8 @@
          <contents>
             <object_component_ref idref="oc-ee"/>
             <object_component_ref idref="oc-182"/>
-            <object_component_ref idref="oc-226"/>
             <object_component_ref idref="oc-225"/>
+            <object_component_ref idref="oc-226"/>
             <object_component_ref idref="oc-e7"/>
          </contents>
       </logical_group>
