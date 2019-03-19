@@ -3541,3 +3541,11 @@ Finished building target: "blink_cpu01.out"
 gmake: Nothing to be done for 'all'.
 
 **** Build Finished ****
+
+**** Build of configuration CPU1_FLASH_STANDALONE for project blink_cpu01 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
