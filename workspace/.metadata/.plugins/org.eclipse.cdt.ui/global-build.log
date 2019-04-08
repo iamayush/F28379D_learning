@@ -3549,3 +3549,51 @@ gmake: Nothing to be done for 'all'.
 gmake: Nothing to be done for 'all'.
 
 **** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 164: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 166: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 223: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 285: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 286: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 287: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 292: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 299: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 299: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 303: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 307: error #20: identifier "K" is undefined
+12 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
