@@ -3597,3 +3597,1380 @@ gmake: *** [blink_cpu02.obj] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sSerial.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 25: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c".
+Compilation terminated.
+gmake: *** [f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/f28377sADC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sADC.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sADC.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:9: recipe for target 'F28377sSrc/f28377sADC.obj' failed
+"../F28377sSrc/f28377sADC.c", line 6: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sADC.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sADC.obj] Error 1
+Building file: "../F28377sSrc/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sCoecsl.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sCoecsl.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:16: recipe for target 'F28377sSrc/f28377sCoecsl.obj' failed
+"../F28377sSrc/f28377sCoecsl.c", line 13: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sCoecsl.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sCoecsl.obj] Error 1
+Building file: "../F28377sSrc/f28377sDAC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sDAC.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sDAC.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:23: recipe for target 'F28377sSrc/f28377sDAC.obj' failed
+"../F28377sSrc/f28377sDAC.c", line 6: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sDAC.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sDAC.obj] Error 1
+Building file: "../F28377sSrc/f28377sEPWM3A.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sEPWM3A.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sEPWM3A.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:30: recipe for target 'F28377sSrc/f28377sEPWM3A.obj' failed
+"../F28377sSrc/f28377sEPWM3A.c", line 6: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sEPWM3A.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sEPWM3A.obj] Error 1
+Building file: "../F28377sSrc/f28377sEqep.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sEqep.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sEqep.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:37: recipe for target 'F28377sSrc/f28377sEqep.obj' failed
+"../F28377sSrc/f28377sEqep.c", line 12: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sEqep.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sEqep.obj] Error 1
+Building file: "../F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sSerial.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:44: recipe for target 'F28377sSrc/f28377sSerial.obj' failed
+"../F28377sSrc/f28377sSerial.c", line 25: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/f28377sSerial.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/lcd.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/lcd.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/lcd.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:51: recipe for target 'F28377sSrc/lcd.obj' failed
+"../F28377sSrc/lcd.c", line 9: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "../F28377sSrc/lcd.c".
+Compilation terminated.
+gmake: *** [F28377sSrc/lcd.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/f28377sADC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sADC.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sADC.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:9: recipe for target 'F28377sSrc/f28377sADC.obj' failed
+"../F28377sSrc/f28377sADC.c", line 21: warning #225-D: function "AdcSetMode" declared implicitly
+"../F28377sSrc/f28377sADC.c", line 21: error #20: identifier "ADC_ADCA" is undefined
+"../F28377sSrc/f28377sADC.c", line 21: error #20: identifier "ADC_RESOLUTION_12BIT" is undefined
+"../F28377sSrc/f28377sADC.c", line 21: error #20: identifier "ADC_SIGNALMODE_SINGLE" is undefined
+"../F28377sSrc/f28377sADC.c", line 22: error #20: identifier "ADC_ADCB" is undefined
+"../F28377sSrc/f28377sADC.c", line 45: error #20: identifier "ADC_RESOLUTION_12BIT" is undefined
+5 errors detected in the compilation of "../F28377sSrc/f28377sADC.c".
+gmake: *** [F28377sSrc/f28377sADC.obj] Error 1
+Building file: "../F28377sSrc/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sCoecsl.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sCoecsl.c"
+Finished building: "../F28377sSrc/f28377sCoecsl.c"
+ 
+Building file: "../F28377sSrc/f28377sDAC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sDAC.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sDAC.c"
+"../F28377sSrc/f28377sDAC.c", line 36 (col. 75): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../F28377sSrc/f28377sDAC.c"
+ 
+Building file: "../F28377sSrc/f28377sEPWM3A.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sEPWM3A.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sEPWM3A.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:30: recipe for target 'F28377sSrc/f28377sEPWM3A.obj' failed
+"../F28377sSrc/f28377sEPWM3A.c", line 18: error #137: union "TBPHS_GROUP" has no field "bit"
+"../F28377sSrc/f28377sEPWM3A.c", line 49: error #137: union "CMPA_GROUP" has no field "bit"
+2 errors detected in the compilation of "../F28377sSrc/f28377sEPWM3A.c".
+gmake: *** [F28377sSrc/f28377sEPWM3A.obj] Error 1
+Building file: "../F28377sSrc/f28377sEqep.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sEqep.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sEqep.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:37: recipe for target 'F28377sSrc/f28377sEqep.obj' failed
+"../F28377sSrc/f28377sEqep.c", line 45: error #20: identifier "GpioCtrlRegs" is undefined
+1 error detected in the compilation of "../F28377sSrc/f28377sEqep.c".
+gmake: *** [F28377sSrc/f28377sEqep.obj] Error 1
+Building file: "../F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sSerial.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:44: recipe for target 'F28377sSrc/f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"../F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"../F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "../F28377sSrc/f28377sSerial.c".
+gmake: *** [F28377sSrc/f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/lcd.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/lcd.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/lcd.c"
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "../F28377sSrc/lcd.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/f28377sEqep.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sEqep.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sEqep.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:16: recipe for target 'F28377sSrc/f28377sEqep.obj' failed
+"../F28377sSrc/f28377sEqep.c", line 45: error #20: identifier "GpioCtrlRegs" is undefined
+1 error detected in the compilation of "../F28377sSrc/f28377sEqep.c".
+gmake: *** [F28377sSrc/f28377sEqep.obj] Error 1
+Building file: "../F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sSerial.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:23: recipe for target 'F28377sSrc/f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"../F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"../F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "../F28377sSrc/f28377sSerial.c".
+gmake: *** [F28377sSrc/f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+Building file: "../F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F28377sSrc/f28377sSerial.d_raw" --obj_directory="F28377sSrc" --cmd_file="configPkg/compiler.opt" "../F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+F28377sSrc/subdir_rules.mk:16: recipe for target 'F28377sSrc/f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"../F28377sSrc/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+"../F28377sSrc/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"../F28377sSrc/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "../F28377sSrc/f28377sSerial.c".
+gmake: *** [F28377sSrc/f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sSerial.obj' failed
+Fatal error #1965: cannot open source file "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sSrc/f28377sSerial.c".
+Compilation terminated.
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sCoecsl.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c", line 13: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c".
+Compilation terminated.
+gmake: *** [f28377sCoecsl.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'f28377sSerial.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 25: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c".
+Compilation terminated.
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:72: recipe for target 'f28377sCoecsl.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c", line 13: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c".
+Compilation terminated.
+gmake: *** [f28377sCoecsl.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'f28377sSerial.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 25: fatal error #1965: cannot open source file "f28377sCoecsl.h"
+1 catastrophic error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c".
+Compilation terminated.
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'F2837xD_GlobalVariableDefsforBIOS.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 253: error #148: declaration is incompatible with "volatile struct DCSM_Z1_REGS DcsmZ1Regs" (declared at line 436 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 261: error #148: declaration is incompatible with "volatile struct DCSM_Z2_REGS DcsmZ2Regs" (declared at line 437 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 269: error #148: declaration is incompatible with "volatile struct DCSM_COMMON_REGS DcsmCommonRegs" (declared at line 438 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 567: error #148: declaration is incompatible with "volatile struct IPC_REGS_CPU2 IpcRegs" (declared at line 287 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_ipc.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 237: error #237: variable "DcanaRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 245: error #237: variable "DcanbRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 253: error #237: variable "DcsmZ1Regs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 261: error #237: variable "DcsmZ2Regs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 269: error #237: variable "DcsmCommonRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 277: error #237: variable "DcsmZ1Otp" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 285: error #237: variable "DcsmZ2Otp" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 542: error #237: variable "HwbistRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 567: error #237: variable "IpcRegs" was declared with a never-completed type
+13 errors detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c".
+gmake: *** [F2837xD_GlobalVariableDefsforBIOS.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'F2837xD_SysCtrl.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c", line 182: error #20: identifier "FlashCtrlRegs" is undefined
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c", line 213: error #20: identifier "FlashEccRegs" is undefined
+2 errors detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c".
+gmake: *** [F2837xD_SysCtrl.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 169: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 226: warning #225-D: function "strlen" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+13 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 288: warning #225-D: function "sprintf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 289: error #20: identifier "u" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 290: error #20: identifier "vel2" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 291: error #20: identifier "K" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 294: error #20: identifier "tilt" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 295: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: warning #225-D: function "serial_printf" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 298: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: warning #225-D: function "serial_send" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 302: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 306: error #20: identifier "accelxSide" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 310: error #20: identifier "K" is undefined
+12 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+3 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'f28377sSerial.obj' failed
+"C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v100\F2837xD_common\include\F2837xD_Cla_typedefs.h", line 85: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 89: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 90: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 185: error #148: declaration is incompatible with "Uint16 serial_send(serial_t *, char *, Uint16)" (declared at line 25 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 236: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 257: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 278: error #156: expression must have struct or union type
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c", line 354: error #148: declaration is incompatible with "Uint16 serial_printf(serial_t *, char *, ...)" (declared at line 26 of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders/f28377sSerial.h")
+7 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c".
+gmake: *** [f28377sSerial.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefsforBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'F2837xD_GlobalVariableDefsforBIOS.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 253: error #148: declaration is incompatible with "volatile struct DCSM_Z1_REGS DcsmZ1Regs" (declared at line 436 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 261: error #148: declaration is incompatible with "volatile struct DCSM_Z2_REGS DcsmZ2Regs" (declared at line 437 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 269: error #148: declaration is incompatible with "volatile struct DCSM_COMMON_REGS DcsmCommonRegs" (declared at line 438 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_dcsm.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 567: error #148: declaration is incompatible with "volatile struct IPC_REGS_CPU2 IpcRegs" (declared at line 287 of "C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\include\F2837xD_ipc.h")
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 237: error #237: variable "DcanaRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 245: error #237: variable "DcanbRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 253: error #237: variable "DcsmZ1Regs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 261: error #237: variable "DcsmZ2Regs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 269: error #237: variable "DcsmCommonRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 277: error #237: variable "DcsmZ1Otp" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 285: error #237: variable "DcsmZ2Otp" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 542: error #237: variable "HwbistRegs" was declared with a never-completed type
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c", line 567: error #237: variable "IpcRegs" was declared with a never-completed type
+13 errors detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/source/F2837xD_GlobalVariableDefsforBIOS.c".
+gmake: *** [F2837xD_GlobalVariableDefsforBIOS.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'F2837xD_SysCtrl.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c", line 182: error #20: identifier "FlashCtrlRegs" is undefined
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c", line 213: error #20: identifier "FlashEccRegs" is undefined
+2 errors detected in the compilation of "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_SysCtrl.c".
+gmake: *** [F2837xD_SysCtrl.obj] Error 1
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+3 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu02.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu02.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" "f28377sCoecsl.obj" "f28377sSerial.obj" 
+DEL /F "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" "f28377sCoecsl.d" "f28377sSerial.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\blink_cpu02.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\blink_cpu02.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu02.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu02.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu02.x28FP from package/cfg/blink_cpu02_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu02_p28FP.c ...
+Finished building: "../blink_cpu02.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefs.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+3 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "blink_cpu02.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "blink_cpu02.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefs.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" "f28377sCoecsl.obj" "f28377sSerial.obj" 
+DEL /F "F2837xD_GlobalVariableDefs.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "blink_cpu02.d" "f28377sCoecsl.d" "f28377sSerial.d" 
+DEL /F "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\blink_cpu02.hex
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\blink_cpu02.out
+Could Not Find C:\ayush2\F28379D_Guide\F2837xD\Labs\blink\cpu02\ccs\CPU2_FLASH\F2837xD_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../blink_cpu02.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_50_05_12_core/xs" --xdcpath="C:/CCStudio_v8/bios_6_70_01_03/packages;C:/CCStudio_v8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28379D -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS" "../blink_cpu02.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring blink_cpu02.x28FP from package/cfg/blink_cpu02_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/blink_cpu02_p28FP.c ...
+Finished building: "../blink_cpu02.cfg"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefs.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Gpio_forBIOS.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c", line 380: warning #1181-D: #warning directive: uncomment if I want to use this with BIOS HWI
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Gpio_forBIOS.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_Ipc.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/source/F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/source/F2837xD_SysCtrl.c"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/source/F2837xD_SysCtrl.c"
+ 
+Building file: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+Finished building: "C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/source/F2837xD_usDelay.asm"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 48: error #20: identifier "serial_t" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: warning #225-D: function "init_serial" declared implicitly
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 96: error #20: identifier "SerialB" is undefined
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 167: error #20: identifier "serial_t" is undefined
+3 errors detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sCoecsl.c"
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1d49       max hole: 0x1d20    
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ _GPIO_SetupPinMux     ./f28377sSerial.obj
+ _GPIO_SetupPinOptions ./f28377sSerial.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1eb7       max hole: 0x1ea0    
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1d49       max hole: 0x1d20    
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ _GPIO_SetupPinMux     ./f28377sSerial.obj
+ _GPIO_SetupPinOptions ./f28377sSerial.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/f28377sSerial.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1d49       max hole: 0x1d20    
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

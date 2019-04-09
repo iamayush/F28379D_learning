@@ -48,9 +48,10 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.TMU_SUPPORT.131661759" name="Specify TMU support (--tmu_support)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.TMU_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.TMU_SUPPORT.tmu0" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.INCLUDE_PATH.775589598" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="${BIOS_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
-									<listOptionValue builtIn="false" value="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/include"/>
-									<listOptionValue builtIn="false" value="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/include"/>
+									<listOptionValue builtIn="false" value="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include"/>
+									<listOptionValue builtIn="false" value="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.ADVICE__PERFORMANCE.279125199" name="Provide advice on optimization techniques (--advice:performance)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.ADVICE__PERFORMANCE" value="--advice:performance=all" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.DEFINE.1869119904" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.DEFINE" valueType="definedSymbols">

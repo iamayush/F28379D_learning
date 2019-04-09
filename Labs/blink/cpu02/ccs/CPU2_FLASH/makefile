@@ -11,12 +11,14 @@ GEN_CMDS__FLAG := -l"configPkg/linker.cmd"
 
 ORDERED_OBJS += \
 "./F2837xD_CodeStartBranch.obj" \
-"./F2837xD_GlobalVariableDefsforBIOS.obj" \
+"./F2837xD_GlobalVariableDefs.obj" \
 "./F2837xD_Gpio_forBIOS.obj" \
 "./F2837xD_Ipc.obj" \
 "./F2837xD_SysCtrl.obj" \
 "./F2837xD_usDelay.obj" \
 "./blink_cpu02.obj" \
+"./f28377sCoecsl.obj" \
+"./f28377sSerial.obj" \
 $(GEN_CMDS__FLAG) \
 -lrts2800_fpu32.lib \
 -l2837x_Dan_Flash_lnk_cpu2.cmd \
@@ -162,8 +164,8 @@ blink_cpu02.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefsforBIOS.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" 
-	-$(RM) "F2837xD_GlobalVariableDefsforBIOS.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" 
+	-$(RM) "F2837xD_CodeStartBranch.obj" "F2837xD_GlobalVariableDefs.obj" "F2837xD_Gpio_forBIOS.obj" "F2837xD_Ipc.obj" "F2837xD_SysCtrl.obj" "F2837xD_usDelay.obj" "blink_cpu02.obj" "f28377sCoecsl.obj" "f28377sSerial.obj" 
+	-$(RM) "F2837xD_GlobalVariableDefs.d" "F2837xD_Gpio_forBIOS.d" "F2837xD_Ipc.d" "F2837xD_SysCtrl.d" "blink_cpu02.d" "f28377sCoecsl.d" "f28377sSerial.d" 
 	-$(RM) "F2837xD_CodeStartBranch.d" "F2837xD_usDelay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

@@ -3384,3 +3384,16 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY com.ti.common.core 4 0 2019-04-08 13:18:29.457
 !MESSAGE debugServerDir=C:/CCStudio_v8/ccsv8/ccs_base/DebugServer
+!SESSION 2019-04-09 09:36:41.037 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2019-04-09 09:45:27.406
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2019-04-09 09:45:27.416
+!MESSAGE debugServerDir=C:/CCStudio_v8/ccsv8/ccs_base/DebugServer
