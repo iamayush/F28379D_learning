@@ -78,7 +78,7 @@
 									<listOptionValue builtIn="false" value="${BIOS_LIBRARIES}"/>
 									<listOptionValue builtIn="false" value="rts2800_fpu32.lib"/>
 									<listOptionValue builtIn="false" value="2837x_Dan_Flash_lnk_cpu2.cmd"/>
-									<listOptionValue builtIn="false" value="F2837x_Headers_BIOS_cpu2.cmd"/>
+									<listOptionValue builtIn="false" value="C:\CCStudio_v8\controlSUITE\device_support\F2837xD\v140\F2837xD_headers\cmd\F2837xD_Headers_BIOS_cpu2.cmd"/>
 									<listOptionValue builtIn="false" value="libc.a"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_18.1.linkerID.SEARCH_PATH.13628095" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C2000_18.1.linkerID.SEARCH_PATH" valueType="libPaths">

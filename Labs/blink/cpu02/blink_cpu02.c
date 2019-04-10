@@ -21,6 +21,7 @@
 
 #include "f28377sCoecsl.h" // Ayush
 #include "f28377sSerial.h"
+#include "buffer.h"
 
 #ifdef _FLASH
 // These are defined by the linker (see device linker command file)
@@ -98,6 +99,16 @@ void main(void)
 
 	//	init_serial(&SerialB,115200,serialRXB);
 	//	DELAY_US(200000);
+	SerialB.sci = &ScibRegs;
+	SerialB.got_data = serialRXB;
+	init_buffer(&SerialB.TX);
+
+	/* enable PIE interrupts */
+	PieCtrlRegs.PIEIER9.bit.INTx3 = 1;
+	PieCtrlRegs.PIEIER9.bit.INTx4 = 1;
+	IER |= (M_INT9);
+
+	PieCtrlRegs.PIEACK.all = (PIEACK_GROUP9);
 
 	while(AT_FLAG == 0)
 	{

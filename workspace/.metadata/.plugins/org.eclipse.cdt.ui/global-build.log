@@ -4974,3 +4974,246 @@ gmake: *** [blink_cpu02.out] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1d49       max hole: 0x1d20    
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd/2837x_Dan_Flash_lnk_cpu2.cmd", line 87: error #10099-D: 
+   program will not fit into available memory.  run placement with
+   alignment/blocking fails for section ".ebss" size 0x6086 page 1.  Available
+   memory ranges:
+   M1SARAM      size: 0x400        unused: 0x400        max hole: 0x400
+   LS05SARAM    size: 0x3000       unused: 0x1d49       max hole: 0x1d20    
+error #10010: errors encountered during linking; "blink_cpu02.out" not built
+ 
+>> Compilation failure
+makefile:150: recipe for target 'blink_cpu02.out' failed
+gmake: *** [blink_cpu02.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -lF2837x_Headers_BIOS_cpu2.cmd -llibc.a 
+<Linking>
+warning #10247-D: creating output section "EmuKeyVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "EmuBModeVar" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmCommonRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "DcsmZ1OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2OtpFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ1RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "DcsmZ2RegsFile" without a SECTIONS
+   specification
+warning #10247-D: creating output section "Flash0EccRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "Flash0CtrlRegsFile" without a
+   SECTIONS specification
+warning #10247-D: creating output section "PieVectTableFile" without a SECTIONS
+   specification
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/cmd/F2837xD_Headers_BIOS_cpu2.cmd" -llibc.a 
+<Linking>
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 103: error #169: argument of type "struct buffer_s" is incompatible with parameter of type "buffer_t *"
+1 error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 104: error #169: argument of type "struct buffer_s" is incompatible with parameter of type "buffer_t *"
+1 error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'blink_cpu02.obj' failed
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+"C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c", line 104: error #45: expression must have pointer type
+1 error detected in the compilation of "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c".
+gmake: *** [blink_cpu02.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/cmd/F2837xD_Headers_BIOS_cpu2.cmd" -llibc.a 
+<Linking>
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU2_FLASH for project blink_cpu02 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/ccs/src/F28377sHeaders" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include" --include_path="C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_common/include" --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="blink_cpu02.d_raw" --cmd_file="configPkg/compiler.opt" "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 136: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/include/F2837xD_device.h", line 137: warning #303-D: typedef name has already been declared (with same type)
+Finished building: "C:/ayush2/F28379D_Guide/F2837xD/Labs/blink/cpu02/blink_cpu02.c"
+ 
+Building target: "blink_cpu02.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU2 --define=SYSBIOS --define=_FLASH -g --diag_warning=225 --display_error_number -z -m"blink_cpu02.map" --stack_size=0x400 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_common/cmd" -i"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v100/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="blink_cpu02_linkInfo.xml" --rom_model -o "blink_cpu02.out" "./F2837xD_CodeStartBranch.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio_forBIOS.obj" "./F2837xD_Ipc.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./blink_cpu02.obj" "./f28377sCoecsl.obj" "./f28377sSerial.obj" -l"configPkg/linker.cmd" -lrts2800_fpu32.lib -l2837x_Dan_Flash_lnk_cpu2.cmd -l"C:/CCStudio_v8/controlSUITE/device_support/F2837xD/v140/F2837xD_headers/cmd/F2837xD_Headers_BIOS_cpu2.cmd" -llibc.a 
+<Linking>
+Finished building target: "blink_cpu02.out"
+ 
+
+**** Build Finished ****
