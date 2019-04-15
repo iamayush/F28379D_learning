@@ -97,25 +97,23 @@ void main(void)
 	EINT;  // Enable Global interrupt INTM
 	ERTM;  // Enable Global realtime interrupt DBGM
 
-	//	init_serial(&SerialB,115200,serialRXB);
-	//	DELAY_US(200000);
-	SerialB.sci = &ScibRegs;
-	SerialB.got_data = serialRXB;
-	init_buffer(&SerialB.TX);
+	//	SerialB.sci = &ScibRegs;
+	//	SerialB.got_data = serialRXB;
+	//	init_buffer(&SerialB.TX);
+	//
+	//	/* enable PIE interrupts */
+	//	PieCtrlRegs.PIEIER9.bit.INTx3 = 1;
+	//	PieCtrlRegs.PIEIER9.bit.INTx4 = 1;
+	//	IER |= (M_INT9);
+	//
+	//	PieCtrlRegs.PIEACK.all = (PIEACK_GROUP9);
 
-	/* enable PIE interrupts */
-	PieCtrlRegs.PIEIER9.bit.INTx3 = 1;
-	PieCtrlRegs.PIEIER9.bit.INTx4 = 1;
-	IER |= (M_INT9);
-
-	PieCtrlRegs.PIEACK.all = (PIEACK_GROUP9);
-
-	while(AT_FLAG == 0)
-	{
-		serial_send(&SerialB,"AT\r\n",strlen("AT\r\n"));
-		DELAY_US(200000);
-		GpioDataRegs.GPATOGGLE.bit.GPIO13 = 1;
-	}
+	//	while(AT_FLAG == 0)
+	//	{
+	//		serial_send(&SerialB,"AT\r\n",strlen("AT\r\n"));
+	//		DELAY_US(200000);
+	//		GpioDataRegs.GPATOGGLE.bit.GPIO13 = 1;
+	//	}
 
 	// *******************************************************************
 	// Comment out after connecting to new router
@@ -161,99 +159,100 @@ void main(void)
 }
 
 // helper function to clean esp chip data buffer
-//void clear_esp_receive(int option, int length)
-//{
-//	int i;
-//	if (option == 1)
-//	{
-//		arrlen = 0;
-//		for (i = 0; i < length; i++)
-//			esp_receive[i] = NULL;
-//	}
-//	if (option == 2)
-//	{
-//		for (i = 0; i < length; i++)
-//			espmsg[i] = NULL;
-//	}
-//
-//}
+void clear_esp_receive(int option, int length)
+{
+	int i;
+	if (option == 1)
+	{
+		arrlen = 0;
+		for (i = 0; i < length; i++)
+			esp_receive[i] = NULL;
+	}
+	if (option == 2)
+	{
+		for (i = 0; i < length; i++)
+			espmsg[i] = NULL;
+	}
+
+}
 
 void serialRXB(serial_t *s, char data)
 {
-	//	if (s == &SerialB)
-	//	{
-	//
-	//		if (PORT_FLAG != 1) // SETUP NOT READY
-	//		{
-	//
-	//
-	//			if (beginwrite == 0 && data == 'A') // beginwrite -- flag for useful command, starting with "AT"
-	//			{
-	//				beginwrite = 1;
-	//				arrlen = 1;
-	//				esp_receive[arrlen-1] = (char) data;
-	//			}
-	//			else if (beginwrite == 1 && arrlen < NUM_CHARS && data != 'K') // command data transfer not finished
-	//			{
-	//				arrlen++;
-	//
-	//
-	//				esp_receive[arrlen-1] = (char) data;
-	//			}
-	//			else if (beginwrite == 1 && arrlen < NUM_CHARS && data == 'K') // end of transferring command data
-	//			{
-	//				arrlen++;
-	//				esp_receive[arrlen-1] = (char) data;
-	//				// check command contents, based on the length of the string
-	//				if (arrlen == 9){ // check initially if AT command connection works
-	//					AT_FLAG = 1;
-	//
-	//				}
-	//
-	//
-	//
-	//
-	//				// *******************************************************************
-	//				// Comment out after connecting to new router
-	//
-	////				else if (arrlen == (strlen("AT+CWMODE=3")+7)){
-	////					CW_FLAG = 1;
-	////				}
-	////				else if (arrlen == (3*(strlen("AT+CWJAP=\"MECHNIGHT\",\"f33dback5\""))+80)){
-	////					LOGIN_FLAG = 1;
-	////
-	////				}
-	//				// *******************************************************************
-	//
-	//
-	//
-	//
-	//
-	//				else if (arrlen == 18){// set up mux mode
-	//					MODE_FLAG = 1;
-	//
-	//				}
-	//				else if (arrlen == 26 || arrlen == 37){ // set up port number
-	//					PORT_FLAG = 1;
-	//
-	//				}
-	//				else if (arrlen == (strlen("AT+CIPSTA=\"192.168.1.51\"")+7)){ // set up unique IP address
-	//					ADDR_FLAG = 1;
-	//
-	//				}
-	//
-	//				beginwrite = 0;
-	//				clear_esp_receive(1, arrlen);
-	//				//arrlen = 0;
-	//			}
-	//			else if (beginwrite == 1 && arrlen >= NUM_CHARS)
-	//			{
-	//				beginwrite = 0;
-	//				//clear_esp_receive(1, NUM_CHARS);
-	//				//arrlen = 0;
-	//			}
-	//
-	//		}
+	if (s == &SerialB)
+	{
+
+		if (PORT_FLAG != 1) // SETUP NOT READY
+		{
+
+
+			if (beginwrite == 0 && data == 'A') // beginwrite -- flag for useful command, starting with "AT"
+			{
+				beginwrite = 1;
+				arrlen = 1;
+				esp_receive[arrlen-1] = (char) data;
+			}
+			else if (beginwrite == 1 && arrlen < NUM_CHARS && data != 'K') // command data transfer not finished
+			{
+				arrlen++;
+
+
+				esp_receive[arrlen-1] = (char) data;
+			}
+			else if (beginwrite == 1 && arrlen < NUM_CHARS && data == 'K') // end of transferring command data
+			{
+				arrlen++;
+				esp_receive[arrlen-1] = (char) data;
+				// check command contents, based on the length of the string
+				if (arrlen == 9){ // check initially if AT command connection works
+					AT_FLAG = 1;
+
+				}
+
+
+
+
+				// *******************************************************************
+				// Comment out after connecting to new router
+
+				else if (arrlen == (strlen("AT+CWMODE=3")+7)){
+					CW_FLAG = 1;
+				}
+				else if (arrlen == (3*(strlen("AT+CWJAP=\"COECSLNIGHT\",\"f33dback5\""))+80)){
+					LOGIN_FLAG = 1;
+
+				}
+				// *******************************************************************
+
+
+
+
+
+				else if (arrlen == 18){// set up mux mode
+					MODE_FLAG = 1;
+
+				}
+				else if (arrlen == 26 || arrlen == 37){ // set up port number
+					PORT_FLAG = 1;
+
+				}
+				else if (arrlen == (strlen("AT+CIPSTA=\"192.168.1.51\"")+7)){ // set up unique IP address
+					ADDR_FLAG = 1;
+
+				}
+
+				beginwrite = 0;
+				clear_esp_receive(1, arrlen);
+				//arrlen = 0;
+			}
+			else if (beginwrite == 1 && arrlen >= NUM_CHARS)
+			{
+				beginwrite = 0;
+				//clear_esp_receive(1, NUM_CHARS);
+				//arrlen = 0;
+			}
+
+		}
+	} // extra }
 	//
 	//		else if (PORT_FLAG == 1)// SETUP READY
 	//		{
